@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'python3.7.2 --version'
+        sh 'python2.7.2 --version'
       }
     }
     stage('hello') {
